@@ -1,8 +1,8 @@
+import { WEATHER_API_KEY, UNSPLASH_API_KEY } from "./config.js";
 const CACHE_KEY = "weatherAppCache";
 const CACHE_DURATION = 30 * 60 * 1000;
 let clockInterval = null;
 let timezoneOffset = 0;
-import { WEATHER_API_KEY, UNSPLASH_API_KEY } from "./config.js";
 
 
 async function getWeather(city){
