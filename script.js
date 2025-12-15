@@ -1,13 +1,11 @@
-import { WEATHER_API_KEY, UNSPLASH_API_KEY } from "./config.js";
 const CACHE_KEY = "weatherAppCache";
 const CACHE_DURATION = 30 * 60 * 1000;
 let clockInterval = null;
 let timezoneOffset = 0;
 
-
 async function getWeather(city){
     try {
-        const response = await fetch(`https://api.weatherapi.com/v1/current.json?key=${WEATHER_API_KEY}&q=${city}&lang=en`);
+        const response = await fetch(`https://api.weatherapi.com/v1/current.json?key=fead2345e4f24447bb560740251512&q=${city}&lang=en`);
         const data = await response.json();
         return data;
     }
@@ -21,7 +19,7 @@ async function getCityImage(query) {
   const url = `https://api.unsplash.com/photos/random?` +
               `query=${encodeURIComponent(query)}` +
               `&orientation=landscape` +
-              `&client_id=${UNSPLASH_API_KEY}`;
+              `&client_id=jT3ZfRjc1NYm9MMT7X_bwi8RxPgBe5INuEY4Z9jqIIQ`;
 
   const response = await fetch(url);
   const data = await response.json();
