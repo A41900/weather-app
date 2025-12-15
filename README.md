@@ -35,23 +35,32 @@ journey and portfolio.
 
 👉 **https://a41900.github.io/weather-app/**
 
-
-Please note that this demo uses free-tier API services, which may be subject to
-rate limits. If the demo is temporarily unavailable, feel free to run the project
+Please note that this demo uses free-tier API services, which may be subject to 
+rate limits. If the demo is temporary unavailable, feel free to run the project 
 locally using your own API keys.
+
 ---
 
+## 🔐 API Keys & Security Notes
 
-## 🔐 API Keys
+This project is a **client-side only application** deployed using GitHub Pages.
+Because the application runs entirely in the browser:
 
-This project uses external APIs that require private keys.
+- API keys are required at runtime
+- API keys are **included in the repository**
+- API keys are **exposed in the browser by design**
 
-For security reasons, API keys are **not included** in this repository.
-To run the project locally, replace the placeholder values in the JavaScript files
-with your own API keys.
+This is a known limitation of front-end–only applications hosted on static platforms
+such as GitHub Pages.
+The keys used in this project belong to **free-tier APIs** and are intended
+for **learning and portfolio demonstration purposes only**.
 
-Since this is a client-side application, API keys are still exposed in the browser.
-A backend proxy would be required for full security.
+> ⚠️ **Important:**  
+> In a production environment, API keys should never be exposed on the client.
+> A backend proxy (e.g. Node.js + Express) would be required to securely handle API requests.
+> Implementing such a backend is considered a possible future improvement, but is outside
+> the scope of this project.
+
 
 ---
 
