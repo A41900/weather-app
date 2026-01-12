@@ -12,11 +12,11 @@ simple, prioritising clarity over visual experimentation.
 
 ## Live Demo
 
-> https://a41900.github.io/weather-app/
+[Weather App](https://a41900.github.io/weather-app)
 
-This public demo relies on free-tier API services and may be temporarily
-unavailable due to rate limits. When this happens, the application can be run
-locally using personal API keys.
+> This public demo relies on free-tier API services and may be temporarily
+> unavailable due to rate limits. When this happens, the application can be run
+> locally using personal API keys.
 
 ---
 
@@ -35,6 +35,7 @@ production environment.
 ## Author
 
 Beatriz Andrade  
-Software Engineer Student
+Software Engineering Student  
+[Portfolio](https://a41900.github.io)
 
 </div>
